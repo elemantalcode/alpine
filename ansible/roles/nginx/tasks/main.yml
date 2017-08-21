@@ -1,0 +1,9 @@
+---
+
+- name: Copy index file
+  copy:
+    src: files/index.html
+    dest: /var/www/html/index.html
+    owner: nobody
+    group: nobody
+    mode: 0666
